@@ -1,3 +1,26 @@
+## osqp_vendor (foxy) - 0.0.4-1
+
+The packages in the `osqp_vendor` repository were released into the `foxy` distro by running `/usr/bin/bloom-release --rosdistro foxy --track foxy osqp_vendor` on `Tue, 07 Dec 2021 02:45:26 -0000`
+
+The `osqp_vendor` package was released.
+
+Version of package(s) in repository `osqp_vendor`:
+
+- upstream repository: https://github.com/tier4/osqp_vendor.git
+- release repository: https://github.com/tier4/osqp_vendor-release.git
+- rosdistro version: `0.0.3-2`
+- old version: `0.0.3-2`
+- new version: `0.0.4-1`
+
+Versions of tools used:
+
+- bloom version: `0.10.7`
+- catkin_pkg version: `0.4.24`
+- rosdep version: `0.21.0`
+- rosdistro version: `0.8.3`
+- vcstools version: `0.1.42`
+
+
 ## osqp_vendor (galactic) - 0.0.4-1
 
 The packages in the `osqp_vendor` repository were released into the `galactic` distro by running `/usr/bin/bloom-release --rosdistro galactic --track galactic osqp_vendor` on `Tue, 07 Dec 2021 02:37:59 -0000`
