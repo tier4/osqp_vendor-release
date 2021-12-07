@@ -1,0 +1,12 @@
+Source: ros-rolling-osqp-vendor
+Section: misc
+Priority: optional
+Maintainer: Esteve Fernandez <esteve.fernandez@autoware.org>
+Build-Depends: debhelper (>= 9.0.0), git, ros-rolling-ament-cmake, ros-rolling-ament-lint-auto, ros-rolling-ament-lint-common, ros-rolling-ros-workspace
+Homepage: https://github.com/oxfordcontrol/osqp
+Standards-Version: 3.9.2
+
+Package: ros-rolling-osqp-vendor
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-rolling-ros-workspace
+Description: Wrapper around osqp that ships with a CMake module
