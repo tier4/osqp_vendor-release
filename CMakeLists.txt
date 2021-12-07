@@ -19,6 +19,8 @@ macro(build_osqp)
     GIT_TAG ${git_tag}
     GIT_SHALLOW ON
     TIMEOUT 60
+    # Suppress git update due to https://gitlab.kitware.com/cmake/cmake/-/issues/16419
+    UPDATE_COMMAND ""
     CMAKE_ARGS
       -DCMAKE_INSTALL_PREFIX=${CMAKE_CURRENT_BINARY_DIR}/osqp_install
       ${extra_cmake_args}
@@ -30,6 +32,7 @@ macro(build_osqp)
       ${CMAKE_CURRENT_BINARY_DIR}/osqp_install/
     DESTINATION
       ${CMAKE_INSTALL_PREFIX}
+    USE_SOURCE_PERMISSIONS
     PATTERN config.h EXCLUDE
   )
 endmacro()
